@@ -180,3 +180,8 @@ module "ASG" {
     ALB_NAME = var.ALB_NAME
 
 }
+
+module "S3-backend" {
+    source = "./modules/s3-backend"
+  
+}
